@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/bootloader
+C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/bootloader.rule
+C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/bootloader-complete.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/ESP_IDF/Bushfire_w_prov/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

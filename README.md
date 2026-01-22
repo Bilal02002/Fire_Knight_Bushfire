@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ESP-IDF template app
 ====================
 
@@ -9,3 +10,7 @@ Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/lates
 Unless required by applicable law or agreed to in writing, this
 software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
 CONDITIONS OF ANY KIND, either express or implied.*
+=======
+# Fire_Knight_Bushfire
+bUSHFIRR GUARDIAN 
+>>>>>>> 6a826754ae7b531e89acb76ac87c5ade7cda746b

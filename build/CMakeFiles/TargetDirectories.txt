@@ -12,7 +12,7 @@ C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/monitor.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/flash.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/encrypted-flash.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/_project_elf_src.dir
-C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/guardian.elf.dir
+C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/Guardian.elf.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/size.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/size-files.dir
 C:/ESP_IDF/Bushfire_w_prov/build/CMakeFiles/size-components.dir

@@ -1415,9 +1415,7 @@ void update_pump_states(void) {
 
         // MANUAL MODE (WITHOUT TIMER)
         if (pumps[i].state == PUMP_MANUAL_ACTIVE && !pumps[i].timerProtected) {
-            printf("[MANUAL] WARNING: %s in manual mode WITHOUT timer protection (legacy mode)\n",
-                   pumps[i].name);
-            
+          
             unsigned long manualElapsed = now - pumps[i].manualStartTime;
             if (manualElapsed >= pumps[i].manualDuration) {
                 snprintf(log_msg, LOG_BUFFER_SIZE, 

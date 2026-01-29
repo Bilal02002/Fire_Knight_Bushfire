@@ -10,6 +10,7 @@ idf_component_register(
         "spiffs_handler.c"
         "time_manager.c"
         "gsm_manager.c"
+        "ota_job.c"
         
     INCLUDE_DIRS 
     PRIV_INCLUDE_DIRS 

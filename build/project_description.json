@@ -1,15 +1,15 @@
 {
     "version":            "1.1",
-    "project_name":       "guardian",
-    "project_version":    "1",
+    "project_name":       "Guardian",
+    "project_version":    "1.0.9",
     "project_path":       "C:/ESP_IDF/Bushfire_w_prov",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/ESP_IDF/Bushfire_w_prov/build",
     "config_file":        "C:/ESP_IDF/Bushfire_w_prov/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "C:/ESP_IDF/Bushfire_w_prov/build/bootloader/bootloader.elf",
-    "app_elf":            "guardian.elf",
-    "app_bin":            "guardian.bin",
+    "app_elf":            "Guardian.elf",
+    "app_bin":            "Guardian.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.3.1-dirty",
     "target":             "esp32",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/ESP_IDF/Bushfire_w_prov/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/ESP_IDF/Bushfire_w_prov/main/main.c", "C:/ESP_IDF/Bushfire_w_prov/main/clsPCA9555.c", "C:/ESP_IDF/Bushfire_w_prov/main/fire_system.c", "C:/ESP_IDF/Bushfire_w_prov/main/wifi_config.c", "C:/ESP_IDF/Bushfire_w_prov/main/spiffs_handler.c", "C:/ESP_IDF/Bushfire_w_prov/main/time_manager.c", "C:/ESP_IDF/Bushfire_w_prov/main/gsm_manager.c" ],
+            "sources": [ "C:/ESP_IDF/Bushfire_w_prov/main/main.c", "C:/ESP_IDF/Bushfire_w_prov/main/clsPCA9555.c", "C:/ESP_IDF/Bushfire_w_prov/main/fire_system.c", "C:/ESP_IDF/Bushfire_w_prov/main/wifi_config.c", "C:/ESP_IDF/Bushfire_w_prov/main/spiffs_handler.c", "C:/ESP_IDF/Bushfire_w_prov/main/time_manager.c", "C:/ESP_IDF/Bushfire_w_prov/main/gsm_manager.c", "C:/ESP_IDF/Bushfire_w_prov/main/ota_job.c" ],
             "include_dirs": []
         },
         "mbedtls": {

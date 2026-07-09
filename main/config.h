@@ -30,15 +30,15 @@
 // TASK CONFIGURATION
 // ========================================
 // Task stack sizes
-#define TASK_SENSOR_STACK_SIZE      8192
-#define TASK_FIRE_DETECT_STACK_SIZE 8192
-#define TASK_PUMP_MGMT_STACK_SIZE   6144
-#define TASK_WATER_LOCK_STACK_SIZE  4096
-#define TASK_MONITOR_STACK_SIZE     4096
-#define TASK_DOOR_STACK_SIZE        4096
-#define TASK_CMD_STACK_SIZE         8192
-#define TASK_MQTT_PUBLISH_STACK_SIZE 4096
-#define TASK_STATE_MACHINE_STACK_SIZE 6144
+#define TASK_SENSOR_STACK_SIZE      2560
+#define TASK_FIRE_DETECT_STACK_SIZE 2560
+#define TASK_PUMP_MGMT_STACK_SIZE   2560
+#define TASK_WATER_LOCK_STACK_SIZE  2560 // can't be low
+#define TASK_MONITOR_STACK_SIZE     2560
+#define TASK_DOOR_STACK_SIZE        2048 // can't be low 
+#define TASK_CMD_STACK_SIZE         2048
+#define TASK_MQTT_PUBLISH_STACK_SIZE 4096 //can't be low
+#define TASK_STATE_MACHINE_STACK_SIZE 4096 
 #define TASK_ALERT_STACK_SIZE       4096
 
 // Task priorities
@@ -59,7 +59,7 @@
 #define HEARTBEAT_INTERVAL          60000
 #define SYSTEM_STATUS_INTERVAL      70000
 #define SHADOW_UPDATE_INTERVAL      30000
-#define SENSOR_WARMUP_SECONDS       15      // Wait for sensors to stabilize
+#define SENSOR_WARMUP_SECONDS       22   // Wait for sensors to stabilize
 
 // ========================================
 // NETWORK CONFIGURATION
@@ -82,7 +82,7 @@
 // MEMORY CONFIGURATION
 // ========================================
 #define MIN_FREE_HEAP_THRESHOLD     10240   // 10KB minimum free heap
-#define MAX_JSON_PAYLOAD_SIZE       1024    // Maximum JSON payload size
+#define MAX_JSON_PAYLOAD_SIZE       1200    ////CAN'T BE LESS THA 1200
 #define MAX_TOPIC_LENGTH            128     // Maximum MQTT topic length
 #define MQTT_QOS_LEVEL              0       // Use QoS 0 for memory efficiency
 
@@ -96,7 +96,7 @@
 // ========================================
 // MQTT CONFIGURATION
 // ========================================
-#define MQTT_MAX_PACKET_SIZE        4096
+#define MQTT_MAX_PACKET_SIZE        5120
 #define MQTT_BUFFER_SIZE            8192
 #define MQTT_KEEPALIVE              60
 #define MQTT_SOCKET_TIMEOUT         15

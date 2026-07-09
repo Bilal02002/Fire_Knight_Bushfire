@@ -20,7 +20,7 @@
 
 // Alert storage constants
 #define MAX_ALERTS_IN_STORAGE 50
-#define MAX_ALERT_SIZE 512
+#define MAX_ALERT_SIZE 768
 #define MAX_ALERT_RETRIES 3
 
 /**

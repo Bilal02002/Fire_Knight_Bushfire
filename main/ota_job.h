@@ -84,5 +84,5 @@ bool ota_job_is_active(void);
  * @brief Cancel ongoing OTA update
  */
 void ota_job_cancel(void);
-
+void ota_job_set_mqtt_handle(esp_mqtt_client_handle_t *client_ptr, bool *connected);
 #endif // OTA_JOB_H

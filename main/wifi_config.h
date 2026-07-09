@@ -12,8 +12,8 @@
 // ========================================
 // WIFI CONFIGURATION
 // ========================================
-#define WIFI_SSID       "Pixel"
-#define WIFI_PASSWORD   "123456788"
+#define WIFI_SSID       "ITech"
+#define WIFI_PASSWORD   "RAK786786"
 
 // Connection settings
 #define WIFI_TIMEOUT_MS 20000  // 20 seconds timeout
